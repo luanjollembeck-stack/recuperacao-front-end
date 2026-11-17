@@ -2,8 +2,8 @@ import { CiHeart } from "react-icons/ci";
 
 export default function Header() {
     return (
-        <header className="flex flex-items items-center justify-center relative w-full h-40 ">
-            <section className="grid grid-cols-2 gap-240">
+        <section className="flex flex-items items-center justify-center relative w-full h-40 ">
+            <div className="grid grid-cols-2 gap-240">
                 <div className="flex gap-2">
                     <img
                         src="../public/img/logo-icone.svg"
@@ -18,7 +18,7 @@ export default function Header() {
                     <CiHeart size={25}/>
                     <p className="font-black text-blue-950">lista de favoritos</p>
                 </div>
-            </section>
-        </header>
+            </div>
+        </section>
     );
 }
