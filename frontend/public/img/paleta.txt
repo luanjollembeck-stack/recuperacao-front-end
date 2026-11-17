@@ -1,0 +1,27 @@
+PetCare - Prova B - Paleta de cores e tipografia
+
+Fonte: Plus Jakarta Sans (Google Fonts), pesos 400 a 800
+
+Cores principais
+  primary        #C4532A   botões, destaques, corações, "care" do logo
+  primary-dark   #9E3F1D   links "Ver todos" e "Saiba mais"
+  ink            #1F2A44   texto principal, fundo do hero e do rodapé
+  muted          #5B6478   textos secundários (raça, tutor, informações)
+  peach          #F4A27A   destaque sobre o fundo azul-marinho
+  cream          #FFF6EC   fundo da página
+  sand           #F6E3CF   bordas dos cards e linhas das seções
+  hover          #FDEEE2   fundo de hover e etiquetas
+
+Bloco para o src/index.css (Tailwind v4)
+
+@theme {
+  --color-primary: #C4532A;
+  --color-primary-dark: #9E3F1D;
+  --color-ink: #1F2A44;
+  --color-muted: #5B6478;
+  --color-peach: #F4A27A;
+  --color-cream: #FFF6EC;
+  --color-sand: #F6E3CF;
+  --color-hover: #FDEEE2;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
